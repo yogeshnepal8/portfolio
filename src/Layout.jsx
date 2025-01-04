@@ -14,7 +14,7 @@ function Layout() {
       <Sidebar />
       <div className="ml-24 lg:py-6 px-4 lg: lg:ml-96 lg:px-12 drop-shadow-md overflow-x-auto flex-1 z-0 ">
         <Routes>
-          <Route path="/about" element={<About />} />
+          <Route path="/" element={<About />} />
           <Route loader={() => {}} path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/estimation" element={<Estimation />} />
